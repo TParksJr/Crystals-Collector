@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="Assets/CSS/reset.css">
     <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
 </head>
 
 <body>
@@ -18,24 +19,27 @@
         </div>
         <div class="grid-item" id="item2">
             <div id="instructions">
-                <p>You will be given a random number at the start of the game.</p>
-                <p>There are four crystals below. By clicking on a crystals you will add a specific amount of points to
-                    your total score.</p>
-                <p>You win the game by matching your total score to the random number below. You lose the game if your
-                    total score goes above the random number.</p>
-                <p>The value of each crystal is hidden from you until you click on it.</p>
-                <p>Each time when the game starts it changes the values of each crystal.</p>
+                <ul>
+                    <li>You will be given a random number at the start of the game.</li>
+                    <li>There are four crystals below. By clicking on a crystals you will add a specific amount of
+                        points to
+                        your total score.</li>
+                    <li>You win the game by matching your total score to the random number below. You lose the game if
+                        your
+                        total score goes above the random number.</li>
+                    <li>The value of each crystal is hidden from you until you click on it.</li>
+                    <li>Each time when the game starts it changes the values of each crystal.</li>
+                </ul>
             </div>
         </div>
         <div class="grid-item" id="item3">
             <div id="random_number">
-                <p>Number: <span id="number"></span></p>
+                <p>Target Number: <span id="number"></span></p>
             </div>
         </div>
         <div class="grid-item" id="item4">
-            <div id="tally">
-                <p>Wins: <span id="wins"></span></p>
-                <p>Losses: <span id="losses"></span></p>
+            <div id="score">
+                <p>Current Total: <span id="total_score"></span></p>
             </div>
         </div>
         <div class="grid-item" id="item5">
@@ -59,8 +63,9 @@
             </div>
         </div>
         <div class="grid-item" id="item9">
-            <div id="score">
-                <p>Your total score is: <span id="total_score"></span></p>
+            <div id="tally">
+                <p>Wins: <span id="wins"></span></p>
+                <p>Losses: <span id="losses"></span></p>
             </div>
         </div>
     </div>

@@ -1,71 +1,68 @@
 body {
     background-image: url("../Images/seigaiha.png");
-    margin-left: 20%;
+}
+h1 {
+    font-size: 200%;
 }
 img {
-    height: 100px;
-    width: 100px;
-    margin: 10px;
+    height: inherit;
+    width: inherit;
 }
 #header {
     background-color: orange;
     color: white;
     padding: 25px;
-    height: 100%;
-    width: 25%;
     min-width: 248px;
-    margin: 10px;
+    margin: 15px;
     font-size: 200%;
+    font-family: 'Spicy Rice', cursive;
     text-align: center;
+    box-shadow: 5px 5px 5px #4b4b4b;
 }
 #instructions {
     background-color: peachpuff;
-    color: green;
-    padding: 25px;
-    min-height: 175px;
-    width: 80%;
-    height: 100%;
-    margin: 10px;
-    line-height: 2;
-}
-#random_number {
-    background-color: green;
     color: black;
     padding: 25px;
-    height: 150px;
-    width: 190px;
-    margin: 10px;
-    float: left;
+    margin: 15px;
+    line-height: 2;
+    box-shadow: 5px 5px 5px #4b4b4b;
+}
+#random_number {
+    background-color: peachpuff;
+    color: black;
+    padding: 25px;
+    margin: 15px;
+    min-height: 64px;
+    box-shadow: 5px 5px 5px #4b4b4b;
 }
 #tally{
-    background-color: lightblue;
-    color: green;
+    background-color: peachpuff;
+    color: black;
     padding: 25px;
-    height: 150px;
-    width: 190px;
-    margin: 10px;
-    float: left;
+    margin: 15px;
     line-height: 2;
+    box-shadow: 5px 5px 5px #4b4b4b;
 }
 #score {
-    background-color: turquoise;
-    color: white;
-    padding: 50px;
-    height: 150px;
-    width: 190px;
-    margin: 10px;
-}
-#crystals::after {
-    content: " ";
-    visibility: hidden;
-    display: block;
-    height: 0;
-    clear: both;
+    background-color: peachpuff;
+    color: black;
+    padding: 25px;
+    margin: 15px;
+    min-height: 64px;
+    box-shadow: 5px 5px 5px #4b4b4b;
 }
 .crystals {
-    float: left;
     background-color: white;
+    margin: 15px;
+    height: 100px;
+    width: 100px;
+    box-shadow: 5px 5px 5px #4b4b4b;
+}
+.crystals:hover {
+    height: 125px;
+    width: 125px;
     margin: 5px;
+    box-shadow: 10px 10px 10px #4b4b4b;
 }
 .grid-container {
     display: grid;
@@ -98,11 +95,6 @@ img {
 }
 #item9 {
     grid-column: 1 / 5;
-}
-@media screen and (max-width:760px) {
-    body {
-        margin-left: 0px;
-    }
 }
 @media screen and (min-width:525px) {
     #item1 {
